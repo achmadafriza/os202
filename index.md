@@ -1,6 +1,6 @@
 ### Welcome to My os202 Github Pages!
 
-This is a repository intended for Operating System course! I'm Achmad Afriza (1906315821).
+I'm gonna be gud.
 ## [My Log](TXT/mylog.txt)
 
 ## Operating Systems Weekly Top Ten List
