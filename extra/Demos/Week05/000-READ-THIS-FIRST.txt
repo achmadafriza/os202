@@ -1,0 +1,78 @@
+# INFO: Read This First! ==== ========= =========
+# Version: Mon Sep 14 21:23:58 WIB 2020
+cat $0; exit 0;
+========= ========= ========= ========= ========= ========= ========= =========
+These files are available in:
+(GITHUB)   https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Demos
+(See also) https://os.vlsm.org/
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+
+(rsync with your "ssoAccount")
+
+FASILKOM Intranet:
+rsync -auv --delete -e 'ssh'  'ssoAccount@badak.cs.ui.ac.id:/extra/Demos/' 'Demos/'
+
+SSH (eg. via yourTunnel port 6789):
+rsync -auv --delete -e 'ssh -p 6789' 'ssoAccount@yourTunnel:/extra/Demos/' 'Demos/'
+
+OR, download GitHub master archive:
+https://github.com/UI-FASILKOM-OS/SistemOperasi/archive/master.zip
+
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+========= ========= ========= ========= ========= ========= ========= =========
+# Copyright (C) 2016-2018 Rahmat M. Samik-Ibrahim
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# REV02 Wed Aug 29 14:39:22 WIB 2018
+# REV01 Mon Mar 12 19:59:22 WIB 2018
+# START Mon Oct  3 11:47:46 WIB 2016
+
+==========
+What To DO
+==========
+
+* Login to "badak.cs.ui.ac.id" with your SSO account.
+* Learn (man, google, etc) how to use the command "top".
+* (If exists) delete OR rename file ~/.toprc
+* See picture 01-top.jpg, 02-top.jpg, 03-top.jpg, 04-top.jpg, 05-top.jpg
+* Run "top" on badak:
+** Hit "h" for HELP.
+** Hit "f" for Field Management: SPACE=ON/OFF; Right Arrow: Set Move
+** Hit "w" to write a new "~/.toprc" file
+* Arrange "top" until it display only:
+  PID, VIRT, RES, SHR, SWAP, CODE, DATA, USED, nDRT.
+* Do not forget to save the configuration by using "W" into "~/.toprc"
+* Make program 06-memory 
+* Run program 06-memory > 07-result.txt
+
+============================================================
+[000-READ-THIS-FIRST.txt] Read This First! ==== ========= =========
+[    06-memory.c] TBA
+[  07-result.txt] TBA
+[08-comments.txt] TBA
+[       Makefile] With this "Makefile", just run:
+                    make
+========= ========= ========= ========= ========= ========= ========= =========
+!!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!! !!!!!!!!!
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian 
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad 
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan 
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer 
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+
+# REV16: Mon Sep 14 21:09:26 WIB 2020
+# REV07: Wed Mar 13 14:15:03 WIB 2019
+# START: Tue Feb 20 09:12:43 WIB 2018
+
+# Copyright (C) 2018-2020 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
