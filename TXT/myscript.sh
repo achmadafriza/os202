@@ -4,8 +4,8 @@ echo "Let's log your week!"
 echo "What Week do you want to log? "
 read week
 
-count = 0
-valid = true
+count=0
+valid=true
 while [ $true ]
 do
     echo "Logging W$week...\n\n"
@@ -54,9 +54,9 @@ do
         "Y")
         break ;;
         "n")
-        valid = false ;;
+        valid=false ;;
         "N")
-        valid = false ;;
+        valid=false ;;
         *)
         echo "Want to Log more? (y/n) "; read confirm ;;
         esac
