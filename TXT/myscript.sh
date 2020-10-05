@@ -10,7 +10,7 @@ while [ $valid ]
 do
     echo -e "Logging W$week...\n\n"
 
-    cat ~/logCodes,txt
+    cat ~/logCodes.txt
 
     echo -e "\nLog Code: "
     read logCode
