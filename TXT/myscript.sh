@@ -51,11 +51,11 @@ do
         "Y")
         break ;;
         "n")
-        valid=false ;;
+        valid=false; break ;;
         "N")
-        valid=false ;;
+        valid=false; break ;;
         *)
-        echo "Want to Log more? (y/n) "; read confirm; break ;;
+        echo "Want to Log more? (y/n) "; read confirm ;;
         esac
     done
     ((count++))
