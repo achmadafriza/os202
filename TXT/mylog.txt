@@ -9,3 +9,6 @@ ZCZC W01 30 L06 Reading guide into Checklist 01 on https://osp4diss.vlsm.org/
 ZCZC W01 30 L21 Install local VM of Debian
 ZCZC W01 120 L08 Trying to fetch data from Badak
 ZCZC W01 180 L04 Writing up Week 00 and 01 Top 10 Lists
+ZCZC W02 180 L99 Trying to make automated logging script
+ZCZC W02 120 L02 Zoom meeting
+ZCZC W02 30 L06 Reading guide to Checklist 02
