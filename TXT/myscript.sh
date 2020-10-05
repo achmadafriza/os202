@@ -8,14 +8,11 @@ count=0
 valid=true
 while [ $valid ]
 do
-    echo "Logging W$week...\n\n"
+    echo -e "Logging W$week...\n\n"
 
-    for i in $(wget -O- -q https://osp4diss.vlsm.org/ETC/logCodes.txt)
-    do
-        echo $i
-    done
+    cat ~/logCodes,txt
 
-    echo "\nLog Code: "
+    echo -e "\nLog Code: "
     read logCode
 
     echo "Minutes: "
@@ -24,7 +21,7 @@ do
     echo "Description: "
     read desc
 
-    echo "ZCZC $week $minutes $logCode $desc\nIs this Correct? (y/n) "
+    echo -e "ZCZC $week $minutes $logCode $desc\nIs this Correct? (y/n) "
     read confirm
 
     while [[ true ]]
