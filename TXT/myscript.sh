@@ -28,9 +28,9 @@ do
     do
         case $confirm in
         "y")
-        echo "ZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
+        echo -e "\nZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
         "Y")
-        echo "ZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
+        echo -e "\nZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
         "n")
         break ;;
         "N")
