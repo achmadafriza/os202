@@ -8,7 +8,6 @@ count = 0
 valid = true
 while [ $true ]
 do
-    clear
     echo "Logging W$week...\n\n"
 
     for i in $(wget -O- -q https://osp4diss.vlsm.org/ETC/logCodes.txt)
@@ -65,5 +64,4 @@ do
     ((count++))
 done
 
-clear
 echo "$count log is added..."
