@@ -6,7 +6,7 @@ read week
 
 count=0
 valid=true
-while [ $true ]
+while [ $valid ]
 do
     echo "Logging W$week...\n\n"
 
