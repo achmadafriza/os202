@@ -12,3 +12,4 @@ ZCZC W01 180 L04 Writing up Week 00 and 01 Top 10 Lists
 ZCZC W02 180 L99 Trying to make automated logging script
 ZCZC W02 120 L02 Zoom meeting
 ZCZC W02 30 L06 Reading guide to Checklist 02
+ZCZC W02 120 L04 Writing up Week 02 Top 10 List
