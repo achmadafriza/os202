@@ -21,22 +21,22 @@ do
     echo "Description: "
     read desc
 
-    echo -e "ZCZC $week $minutes $logCode $desc\nIs this Correct? (y/n) "
+    echo -e "ZCZC W$week $minutes $logCode $desc\nIs this Correct? (y/n) "
     read confirm
 
     while [[ true ]]
     do
         case $confirm in
         "y")
-        echo -e "\nZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
+        echo "ZCZC W$week $minutes L$logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
         "Y")
-        echo -e "\nZCZC $week $minutes $logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
+        echo "ZCZC W$week $minutes L$logCode $desc" >> ~/os202/TXT/mylog.txt; break ;;
         "n")
         break ;;
         "N")
         break ;;
         *)
-        echo "ZCZC $week $minutes $logCode $desc\nIs this Correct? (y/n) "; read confirm ;;
+        echo "ZCZC W$week $minutes L$logCode $desc\nIs this Correct? (y/n) "; read confirm ;;
         esac
     done
 
