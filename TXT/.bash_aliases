@@ -1,3 +1,5 @@
+alias cl="clear"
+alias h="history"
 alias slocal="ssh -p 6022 achmadafriza@localhost"
 alias sbadak="ssh -p 6023 achmad.afriza@localhost"
 alias tunnel='ssh -L 6023:badak.cs.ui.ac.id:22 achmad.afriza@kawung.cs.ui.ac.id'
