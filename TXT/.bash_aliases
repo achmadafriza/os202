@@ -10,7 +10,7 @@ alias rsyncRLocal="rsync -auv --delete -e 'ssh -p 6022' achmadafriza@localhost:~
 alias rsyncRemote="rsync -auv --delete -e 'ssh -l \"Achmad Afriza\"' 10.0.2.2:/c/Programming/OS/os202/ ../os202/"
 alias rsyncLocal="rsync -auv --delete -e 'ssh -p 6022' achmadafriza@localhost:~/os202/ ../os202/"
 alias logtoday="bash myscript.sh"
-alias csiggy="bash createsignature.sh"
+alias csiggy="bash ../Sandbox/createsignature.sh"
 
 # REV01 Mon 05 Oct 2020 09:14:50 AM WIB (rms46)
 # START Sat 19 Sep 2020 00:00:00 (rms46)
