@@ -35,7 +35,7 @@ do
     echo "Description: "
     read desc
 
-    echo -e "ZCZC W$week $minutes $logCode $desc\nIs this Correct? (y/n) "
+    echo -e "ZCZC W$week $minutes L$logCode $desc\nIs this Correct? (y/n) "
     read confirm
 
     while [[ true ]]

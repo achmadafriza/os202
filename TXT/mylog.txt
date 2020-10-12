@@ -16,3 +16,4 @@ ZCZC W02 120 L04 Writing up Week 02 Top 10 List
 ZCZC W03 210 L08 Using msys2 and openssh to rsync between local and remote
 ZCZC W03 60 L08 Trying W03 Checklist
 ZCZC W03 120 L02 Weekly Zoom Meeting
+ZCZC W03 210 L04 Writing up Week 03 Top 10 Lists

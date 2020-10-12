@@ -5,3 +5,6 @@ ZCZC W00 Abimanyu-TheProgrammer
 ZCZC W01 alifyandra
 ZCZC W01 baguspr 
 ZCZC W01 anowanggai
+ZCZC W02 Abimanyu-TheProgrammer
+ZCZC W02 anowanggai
+ZCZC W02 alifyandra
