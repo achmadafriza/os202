@@ -17,3 +17,7 @@ ZCZC W03 210 L08 Using msys2 and openssh to rsync between local and remote
 ZCZC W03 60 L08 Trying W03 Checklist
 ZCZC W03 120 L02 Weekly Zoom Meeting
 ZCZC W03 210 L04 Writing up Week 03 Top 10 Lists
+ZCZC W04 120 L02 Weekly Zoom Meeting
+ZCZC W04 60 L14 Creating myW04.txt
+ZCZC W04 180 L04 Finishing my weekly Top 10 List
+ZCZC W04 120 L08 Setting up my Windows Env for C and C++ development

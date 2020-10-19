@@ -78,3 +78,4 @@ done
 
 end:
 echo "$count log is added..."
+echo "Enjoy your day!"
